@@ -1,0 +1,20 @@
+== Suppressed Messages ==
+
+# External code system
+A definition for CodeSystem 'urn:oid:2.51.1.1' could not be found, so the code cannot be validated
+
+# Code for IPS document not in Swiss value set: https://github.com/hl7ch/ch-epr-term/issues/43
+None of the codings provided are in the value set 'DocumentEntry.typeCode' (http://fhir.ch/ig/ch-term/ValueSet/DocumentEntry.typeCode%
+
+# Caused through underlying profile
+The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0-ballot-tc1 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
+The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0-ballot-tc1 is deprecated with the note: 'Use additionalBinding extension or element instead'
+
+# Display values in different languages
+%is the default display; the code system%
+Wrong Display Name%
+
+# Information about pinned versions 
+Pinned the version of%
+
