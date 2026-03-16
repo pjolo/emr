@@ -4,12 +4,12 @@ This exchange format is defined as a document type that corresponds to a Bundle 
 
 ### Bundle structure
 
-[Emergency Record Bundle](https://pjolo.github.io/emr/StructureDefinition-ch-emr-bundle.html) definition for the FHIR representation of the emergency record in Switzerland.
+[Emergency Record Bundle](StructureDefinition-ch-emr-bundle.html) definition for the FHIR representation of the emergency record in Switzerland.
 
 ### Composition 
-[Composition](https://pjolo.github.io/emr/StructureDefinition-ch-emr-composition.html) 
+[Composition](StructureDefinition-ch-emr-composition.html) 
 
 ### Example bundle
 
-A complete example of an [emergency record Bundle](https://pjolo.github.io/emr/Bundle-EX-Bundle.html) shows the practical implementation of the document structure.
+A complete example of an [emergency record Bundle](Bundle-EX-Bundle.html) shows the practical implementation of the document structure.
 
