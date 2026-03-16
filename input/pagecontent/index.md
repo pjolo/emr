@@ -10,7 +10,7 @@ This implementation guide is based on the concept for the exchange format of the
 This implementation guide is under STU ballot by [HL7 Switzerland](https://www.hl7.ch/de/) until September 30th, 2025 midnight.   
 Please add your feedback via the ‘Propose a change’-link in the footer on the page where you have comments.
 
-[Changelog](https://pjolo.github.io/emr/changelog.html) with significant changes, open and closed issues.
+[Changelog](changelog.html) with significant changes, open and closed issues.
 
 </div>
 
@@ -45,19 +45,19 @@ The Implementation Guide defines the following main profiles:
 
 | Profil | Beschreibung | Parent |
 |--------|--------------|---------|
-| [ChEmrComposition](https://pjolo.github.io/emr/StructureDefinition-ch-emr-composition.html) | Document composition | CH IPS Composition |
-| [ChEmrBundle](https://pjolo.github.io/emr/StructureDefinition-ch-emr-bundle.html) | Document bundle| CH Core Document |
-| [ChEmrPatient](https://pjolo.github.io/emr/StructureDefinition-ch-emr-patient.html) | Demographic data and contact information | CH IPS Patient |
-| [ChEmrRelatedPerson](https://pjolo.github.io/emr/StructureDefinition-ch-emr-relatedperson.html) | Family and trusted persons | CH IPS Patient |
-| [ChEmrPractitioner](https://pjolo.github.io/emr/StructureDefinition-ch-emr-practitioner.html) | Healthcare practitioner information | CH Core Practitioner |
-| [ChEmrObservation](https://pjolo.github.io/emr/StructureDefinition-ch-emr-observation.html) | Various observations | Observation |
-| [ChEmrMedication](https://pjolo.github.io/emr/StructureDefinition-ch-emr-medication.html) | Medication details | CH IPS Medication |
-| [ChEmrMedicationStatement](https://pjolo.github.io/emr/StructureDefinition-ch-emr-medicationstatement.html) | Current medication | CH IPS MedicationStatement |
-| [ChEmrImmunization](https://pjolo.github.io/emr/StructureDefinition-ch-emr-immunization.html) | Immunization records | CH IPS Immunization |
-| [ChEmrAllergyIntolerance](https://pjolo.github.io/emr/StructureDefinition-ch-emr-allergyintolerance.html) | Allergies and intolerances | CH IPS AllergyIntolerance |
-| [ChEmrCondition](https://pjolo.github.io/emr/StructureDefinition-ch-emr-condition.html) | Problems and diagnoses | CH IPS Condition |
-| [ChEmrDocumentReference](https://pjolo.github.io/emr/StructureDefinition-ch-emr-documentreference.html) | Reference to documents | CH Core DocumentReference |
-| [ChEmrDevice](https://pjolo.github.io/emr/StructureDefinition-ch-emr-device.html) | Implants | CH IPS Device |
+| [ChEmrComposition](StructureDefinition-ch-emr-composition.html) | Document composition | CH IPS Composition |
+| [ChEmrBundle](StructureDefinition-ch-emr-bundle.html) | Document bundle| CH Core Document |
+| [ChEmrPatient](StructureDefinition-ch-emr-patient.html) | Demographic data and contact information | CH IPS Patient |
+| [ChEmrRelatedPerson](StructureDefinition-ch-emr-relatedperson.html) | Family and trusted persons | CH IPS Patient |
+| [ChEmrPractitioner](StructureDefinition-ch-emr-practitioner.html) | Healthcare practitioner information | CH Core Practitioner |
+| [ChEmrObservation](StructureDefinition-ch-emr-observation.html) | Various observations | Observation |
+| [ChEmrMedication](StructureDefinition-ch-emr-medication.html) | Medication details | CH IPS Medication |
+| [ChEmrMedicationStatement](StructureDefinition-ch-emr-medicationstatement.html) | Current medication | CH IPS MedicationStatement |
+| [ChEmrImmunization](StructureDefinition-ch-emr-immunization.html) | Immunization records | CH IPS Immunization |
+| [ChEmrAllergyIntolerance](StructureDefinition-ch-emr-allergyintolerance.html) | Allergies and intolerances | CH IPS AllergyIntolerance |
+| [ChEmrCondition](StructureDefinition-ch-emr-condition.html) | Problems and diagnoses | CH IPS Condition |
+| [ChEmrDocumentReference](StructureDefinition-ch-emr-documentreference.html) | Reference to documents | CH Core DocumentReference |
+| [ChEmrDevice](StructureDefinition-ch-emr-device.html) | Implants | CH IPS Device |
 
 ### IP Statements
 This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
