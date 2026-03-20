@@ -1,14 +1,14 @@
-id: ch.fhir.ig.ch-ig
-canonical: http://fhir.ch/ig/ch-ig
+id: ch.fhir.ig.ch-emr
+canonical: http://fhir.ch/ig/ch-emr
 name: CH EMR
 title: "CH EMR (R4)"
-description: Implementation Guide CH IG (R4) for ...
+description: FHIR Implementation Guide for the Swiss Electronic Emergency Record
 status: draft
 license: CC0-1.0
 copyright: CC0-1.0
 jurisdiction: urn:iso:std:iso:3166#CHE
 date: 2025-06-05
-version: 1.2.3 # 1.2.2 published in May 2025
+version: 0.1.0 # 1.2.2 published in May 2025
 fhirVersion: 4.0.1
 copyrightYear: 2024+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use

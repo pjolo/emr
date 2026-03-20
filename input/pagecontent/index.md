@@ -1,6 +1,6 @@
 ### Introduction
-The **emergency record** contains all the important medical information needed in situations in which quick access or a quick overview of medical data is required. For example, in cases of unconsciousness, language barriers or limited health lieracy.   
-The emergency record combines key administrative and clinicel data such as patient details, emergency contacts, medication, allergies, vaccinations, implants, diognose, CPR status and references to living wills and other relevant documents.
+The **emergency record** contains all the important medical information needed in situations in which quick access or a quick overview of medical data is required. For example, in cases of unconsciousness, language barriers or limited health literacy.   
+The emergency record combines key administrative and clinical data such as patient details, emergency contacts, medication, allergies, vaccinations, implants, diagnose, CPR status and references to living wills and other relevant documents.
 
 The CH EMR implementation guide describes the FHIR representation of the electronic emergency record in Switzerland. It is dependent on [CH Core](http://fhir.ch/ig/ch-core/index.html) and [CH Term](http://fhir.ch/ig/ch-term/index.html), which describe the Swiss-specific context, particularly in relation to the Swiss Electronic Patient Record (EPR).   
 This implementation guide is based on the concept for the exchange format of the electronic emergency record ([de](https://www.e-health-suisse.ch/upload/documents/Konzept_eNotfallpass_DE.pdf), [fr](https://www.e-health-suisse.ch/upload/documents/Konzept_Notfallpass_FR.pdf)).
@@ -48,8 +48,8 @@ The Implementation Guide defines the following main profiles:
 | [ChEmrComposition](StructureDefinition-ch-emr-composition.html) | Document composition | CH IPS Composition |
 | [ChEmrBundle](StructureDefinition-ch-emr-bundle.html) | Document bundle| CH Core Document |
 | [ChEmrPatient](StructureDefinition-ch-emr-patient.html) | Demographic data and contact information | CH IPS Patient |
-| [ChEmrRelatedPerson](StructureDefinition-ch-emr-relatedperson.html) | Family and trusted persons | CH IPS Patient |
-| [ChEmrPractitioner](StructureDefinition-ch-emr-practitioner.html) | Healthcare practitioner information | CH Core Practitioner |
+| [ChEmrRelatedPerson](StructureDefinition-ch-emr-relatedperson.html) | Family and trusted persons | CH Core RelatedPerson |
+| [ChEmrPractitioner](StructureDefinition-ch-emr-practitioner.html) | Healthcare practitioner information | CH IPS Practitioner |
 | [ChEmrObservation](StructureDefinition-ch-emr-observation.html) | Various observations | Observation |
 | [ChEmrMedication](StructureDefinition-ch-emr-medication.html) | Medication details | CH IPS Medication |
 | [ChEmrMedicationStatement](StructureDefinition-ch-emr-medicationstatement.html) | Current medication | CH IPS MedicationStatement |
