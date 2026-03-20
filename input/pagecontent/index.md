@@ -57,7 +57,7 @@ The Implementation Guide defines the following main profiles:
 | [ChEmrAllergyIntolerance](StructureDefinition-ch-emr-allergyintolerance.html) | Allergies and intolerances | CH IPS AllergyIntolerance |
 | [ChEmrCondition](StructureDefinition-ch-emr-condition.html) | Problems and diagnoses | CH IPS Condition |
 | [ChEmrDocumentReference](StructureDefinition-ch-emr-documentreference.html) | Reference to documents | CH Core DocumentReference |
-| [ChEmrDevice](StructureDefinition-ch-emr-device.html) | Implants | CH IPS Device |
+| [ChEmrDevice](StructureDefinition-ch-emr-device.html) | Implants | Device |
 
 ### IP Statements
 This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
