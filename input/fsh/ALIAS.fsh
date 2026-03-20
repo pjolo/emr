@@ -36,7 +36,6 @@ Alias: $CHIPSMedication = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-me
 Alias: $CHIPSMedicationStatement = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-medicationstatement
 Alias: $CHIPSAllergyIntolerance = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-allergyintolerance
 Alias: $CHIPSImmunization = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-immunization
-Alias: $CHIPSDevice = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-device
 Alias: $ChIpsCompositionEPR  = http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-composition
 Alias: $ObservationPregnancyStatusUvIps = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pregnancy-status-uv-ips|2.0.0
 Alias: $list-empty-reason = http://terminology.hl7.org/CodeSystem/list-empty-reason
