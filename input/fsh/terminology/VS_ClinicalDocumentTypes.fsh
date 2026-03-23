@@ -1,5 +1,5 @@
-ValueSet: ClinicalDocumentTypes
-Id: clinical-document-types
+ValueSet: ChEmrClinicalDocumentTypesVS
+Id: ch-emr-clinical-document-types-vs
 Title: "Clinical Document Types"
 Description: "Value Set for clinical document types"
 * ^status = #active

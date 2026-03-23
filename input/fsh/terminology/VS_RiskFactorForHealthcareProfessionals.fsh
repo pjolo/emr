@@ -1,5 +1,5 @@
-ValueSet: InfectiousRiskFactors
-Id: infectious-risk-factors
+ValueSet: ChEmrRiskFactorForHealthcareProfessionalsVS
+Id: ch-emr-risk-factor-healthcare-professionals-vs
 Title: "Infectious Disease Risk Factors"
 Description: "ValueSet containing codes for infectious disease risk factors"
 * ^status = #active
@@ -9,6 +9,6 @@ Description: "ValueSet containing codes for infectious disease risk factors"
 
 * $sct#66071002 "Viral hepatitis type B"
 * $sct#50711007 "Viral hepatitis C"
-* $sct#86406008 "Total hip replacement prosthesis"
-* $sct#713351000 " Multidrug-resistant bacteria"
+* $sct#86406008 "Human immunodeficiency virus infection"
+* $sct#713351000 "Multidrug-resistant bacteria"
 
