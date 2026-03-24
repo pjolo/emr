@@ -33,11 +33,11 @@
 
 |Status| # | Bereich | Fehler / Abweichung | Datei | Empfohlene Anpassung |
 |---|---|---------|---------------------|-------|---------------------|
-|   | 11 | VS InfectiousRiskFactors | Code `$sct#86406008` mit Display "Total hip replacement prosthesis" ist ein Implantat-Code, kein infektioeser Risikofaktor. Copy-Paste-Fehler. | `VS_InfectiousRiskFactors.fsh:12` | Durch korrekten Code ersetzen, z.B. einen passenden infektioesen Risikofaktor (HIV, MRSA, Tuberkulose etc.) |
-|   | 12 | VS InfectiousRiskFactors | Display von Code `713351000` hat ein fuehrendes Leerzeichen: `" Multidrug-resistant bacteria"` | `VS_InfectiousRiskFactors.fsh:13` | Leerzeichen entfernen: `"Multidrug-resistant bacteria"` |
-|   | 13 | VS InfectiousRiskFactors | Das ValueSet heisst "Infectious Disease Risk Factors", aber das Konzept spricht allgemein von "Risikofaktoren" (nicht nur infektioese). Laut Konzept gehoeren auch Schwangerschaft, Adipositas, Rauchen etc. dazu | `VS_InfectiousRiskFactors.fsh` | Umbenennen oder erweitern zu allgemeinen Risikofaktoren gemaess Konzept |
-|   | 14 | VS DisabilityTypes | Codes `719232003` "Difficulty walking" und `228158008` "Walking disability" sind semantisch redundant | `VS_DisabilityTypes.fsh:12,15` | Pruefen ob beide noetig sind; ggf. einen entfernen oder durch weitere Behinderungsarten (z.B. kognitive, sprachliche) ergaenzen |
-|   | 15 | VS ImplantType | Nur 4 Codes (Pacemaker, Defi-Leads, Hueftprothese, generisch). Das Konzept nennt mehr Implantattypen (Cochlea-Implantate, Knieprothesen, Stents etc.) | `VS_ImplantType.fsh` | ValueSet erweitern oder auf bestehende SNOMED-Hierarchie (Descendant of "implant") verweisen |
+| erledigt  | 11 | VS InfectiousRiskFactors | Code `$sct#86406008` mit Display "Total hip replacement prosthesis" ist ein Implantat-Code, kein infektioeser Risikofaktor. Copy-Paste-Fehler. | `VS_InfectiousRiskFactors.fsh:12` | Durch korrekten Code ersetzen, z.B. einen passenden infektioesen Risikofaktor (HIV, MRSA, Tuberkulose etc.) |
+| erledigt  | 12 | VS InfectiousRiskFactors | Display von Code `713351000` hat ein fuehrendes Leerzeichen: `" Multidrug-resistant bacteria"` | `VS_InfectiousRiskFactors.fsh:13` | Leerzeichen entfernen: `"Multidrug-resistant bacteria"` |
+| erledigt  | 13 | VS InfectiousRiskFactors | Das ValueSet heisst "Infectious Disease Risk Factors", aber das Konzept spricht allgemein von "Risikofaktoren" (nicht nur infektioese). Laut Konzept gehoeren auch Schwangerschaft, Adipositas, Rauchen etc. dazu | `VS_InfectiousRiskFactors.fsh` | Umbenennen oder erweitern zu allgemeinen Risikofaktoren gemaess Konzept |
+| erledigt  | 14 | VS DisabilityTypes | Codes `719232003` "Difficulty walking" und `228158008` "Walking disability" sind semantisch redundant | `VS_DisabilityTypes.fsh:12,15` | Pruefen ob beide noetig sind; ggf. einen entfernen oder durch weitere Behinderungsarten (z.B. kognitive, sprachliche) ergaenzen |
+| erledigt  | 15 | VS ImplantType | Nur 4 Codes (Pacemaker, Defi-Leads, Hueftprothese, generisch). Das Konzept nennt mehr Implantattypen (Cochlea-Implantate, Knieprothesen, Stents etc.) | `VS_ImplantType.fsh` | ValueSet erweitern oder auf bestehende SNOMED-Hierarchie (Descendant of "implant") verweisen |
 
 ---
 
