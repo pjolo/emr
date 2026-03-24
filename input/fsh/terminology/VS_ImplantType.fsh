@@ -111,8 +111,7 @@ Description: "Codes for implant types"
 * $sct#257343005 "Xenograft cardiac valve (physical object)"
 * $sct#27606000 "Dental prosthesis, device (physical object)"
 * $sct#52124006 "Central venous catheter, device (physical object)"
+* $sct#69805005 "Insulin pump, device (physical object)"
 
-
-//Insulinpumpe
 
 

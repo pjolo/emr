@@ -37,7 +37,7 @@ Description: "General composition for the Emergency Record"
 
 // Resuscitation section
 * section[sectionResuscitation].title = "Reanimation"
-* section[sectionResuscitation].code = $loinc#75320-2 "Advance directive"
+* section[sectionResuscitation].code = $loinc#100822-6 "Cardiopulmonary resuscitation orders"
 * section[sectionResuscitation].text.status = #generated
 * section[sectionResuscitation].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Reanimationsstatus:</p><ul><li>Ja</li></ul></div>"
 * section[sectionResuscitation].entry[observation][0] = Reference(EX-Resuscitation)

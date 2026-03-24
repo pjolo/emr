@@ -72,6 +72,6 @@ Description: "Swiss Emergency Record based on International Patient Summary"
 * section[sectionDisability].entry ^slicing.discriminator.path = "resolve()"
 * section[sectionDisability].entry ^slicing.rules = #open
 * section[sectionDisability].entry contains observation 0..*
-* section[sectionDisability].entry[observation] only Reference(ChEmrObservation)
+* section[sectionDisability].entry[observation] only Reference(ChEmrObservationDisability)
 
 
