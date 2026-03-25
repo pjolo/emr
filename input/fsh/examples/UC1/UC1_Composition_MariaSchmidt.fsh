@@ -37,7 +37,7 @@ Description: "Composition for the Emergency Record by Maria Schmidt"
 
 // Resuscitation section
 * section[sectionResuscitation].title = "Reanimationsstatus"
-* section[sectionResuscitation].code = $loinc#75320-2 "Advance directive"
+* section[sectionResuscitation].code = $loinc#100822-6 "Cardiopulmonary resuscitation orders"
 * section[sectionResuscitation].text.status = #generated
 * section[sectionResuscitation].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Keinen Reanimationsstatus bekannt.</p></div>"
 * section[sectionResuscitation].emptyReason = $list-empty-reason#unavailable "Information not available"

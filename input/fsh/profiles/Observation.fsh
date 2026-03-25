@@ -5,4 +5,5 @@ Title: "CH Emergency Record Observation"
 Description: "Observation profile for various observations in the Emergency Record."
 
 * status MS
-* subject only Reference(ChEmrPatient) MS
+* subject MS
+* subject only Reference(ChEmrPatient)
