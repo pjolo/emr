@@ -41,7 +41,7 @@ Description: "Swiss Emergency Record based on International Patient Summary"
 * section[sectionResuscitation].entry ^slicing.discriminator.path = "resolve()"
 * section[sectionResuscitation].entry ^slicing.rules = #open
 * section[sectionResuscitation].entry contains observation 0..*
-* section[sectionResuscitation].entry[observation] only Reference(ChEmrObservation)
+* section[sectionResuscitation].entry[observation] only Reference(ChEmrObservationResuscitationStatus)
 
 // Risk Factors
 * section[sectionRiskFactors].code = $loinc#46467-7 "Risk factors"
