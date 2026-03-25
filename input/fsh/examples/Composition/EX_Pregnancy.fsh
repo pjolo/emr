@@ -13,4 +13,4 @@ Description: "General example of a Pregnancy"
 
 * valueBoolean = true
 
-* note.text = "Normale Schwangerschaftsentwicklung, alle Vorsorgeuntersuchungen unauffällig. Letzte Kontrolle am 05.09.2025 - Kind zeitgerecht entwickelt."
+

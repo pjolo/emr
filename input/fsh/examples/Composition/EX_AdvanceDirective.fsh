@@ -1,5 +1,5 @@
 Instance: EX-AdvanceDirective
-InstanceOf: ChEmrDocumentReference
+InstanceOf: ChEmrDocumentReferenceAdvanceDirective
 Usage: #example
 Title: "EX-AdvanceDirective"
 Description: "General example of a advance directive"

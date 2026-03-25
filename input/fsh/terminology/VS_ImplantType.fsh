@@ -7,7 +7,6 @@ Description: "Codes for implant types"
 * ^version = "1.0.0"
 * ^date = "2025-01-15"
 
-* $sct#360129009 "Implantable defibrillator leads"
 * $sct#14789005 "Prosthetic implant"
 * $sct#84683006 "Aortic valve prosthesis (physical object)"
 * $sct#360046005 "Arterial stent (physical object)"

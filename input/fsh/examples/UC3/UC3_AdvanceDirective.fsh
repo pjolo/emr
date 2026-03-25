@@ -1,5 +1,5 @@
 Instance: UC3-AdvanceDirective
-InstanceOf: ChEmrDocumentReference
+InstanceOf: ChEmrDocumentReferenceAdvanceDirective
 Usage: #example
 Title: "UC3-AdvanceDirective"
 Description: "Advance directive document for Laura Weber"
