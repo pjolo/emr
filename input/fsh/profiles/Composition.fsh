@@ -35,7 +35,7 @@ Description: "Swiss Emergency Record based on International Patient Summary"
 * section[sectionCareTeam].entry[practitioner] only Reference(ChEmrPractitioner)
 
 //Resuscitation
-* section[sectionResuscitation].code = $loinc#75320-2 "Advance directive"
+* section[sectionResuscitation].code = $loinc#100822-6 "Cardiopulmonary resuscitation orders"
 * section[sectionResuscitation].entry ^slicing.discriminator.type = #profile
 * section[sectionResuscitation].entry ^slicing.discriminator.path = "resolve()"
 * section[sectionResuscitation].entry ^slicing.rules = #open
