@@ -2,11 +2,9 @@ Instance: EX-RiskFactor
 InstanceOf: ChEmrConditionHealthcareProfessionalsRiskFactors
 Usage: #example
 Title: "EX-RiskFactor"
-Description: "General example of a reik factors"
+Description: "General example of a risk factors"
 
-* status = #final
+* clinicalStatus = #active
 * code = $sct#66071002 "Viral hepatitis type B"
 * subject = Reference(EX-Patient)
-* effectiveDateTime = "2025-10-08"
-* valueBoolean = true
-* performer = Reference(EX-Practitioner)
+* recorder = Reference(EX-Practitioner)
