@@ -2,4 +2,4 @@ Profile: ChEmrPractitionerRole
 Parent: $CHIPSPractitionerRole
 Id: ch-emr-practitionerRole
 Title: "CH Emergency Record Practitioner role"
-Description: "Practitioner role Profil for Emergency Record."
+Description: "Practitioner role profile for Emergency Record."

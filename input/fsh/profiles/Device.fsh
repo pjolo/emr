@@ -2,6 +2,6 @@ Profile: ChEmrDevice
 Parent: Device
 Id: ch-emr-device
 Title: "CH Emergency Record Device"
-Description: "Device Profil for implants in the Emergency Record."
+Description: "Device profile for implants in the Emergency Record."
 
 * type from ch-emr-implant-type-vs (extensible)
