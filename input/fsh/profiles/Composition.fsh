@@ -10,7 +10,8 @@ Description: "Swiss Emergency Record based on International Patient Summary"
     sectionResuscitation 0..1 and
     sectionRiskFactors 0..1 and
     sectionOtherDocuments 0..1 and          
-    sectionDisability 0..1 
+    sectionCognitiveDisability 0..1 and
+    sectionPhysicalDisability 0..1
 
 // Medication
 * section[sectionMedications] 1..1
@@ -72,7 +73,7 @@ Description: "Swiss Emergency Record based on International Patient Summary"
 * section[sectionCognitiveDisability].entry ^slicing.discriminator.path = "resolve()"
 * section[sectionCognitiveDisability].entry ^slicing.rules = #open
 * section[sectionCognitiveDisability].entry contains observation 0..*
-* section[sectionCognitiveDisability].entry[observation] only Reference(Profile: ChEmrObservationCognitiveDisability)
+* section[sectionCognitiveDisability].entry[observation] only Reference(ChEmrObservationCognitiveDisability)
 
 * section[sectionPhysicalDisability].code = $loinc#101720-1 "Disability status"
 * section[sectionPhysicalDisability].entry ^slicing.discriminator.type = #profile
