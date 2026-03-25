@@ -1,6 +1,6 @@
 ValueSet: ChEmrAdvanceDirectiveTypeVS
 Id: ch-emr-advance-directive-type-vs
-Title: "Advance Directive Type
+Title: "Advance Directive Type"
 Description: "Types of advance directives and emergency medical orders."
 * ^status = #active
 * ^experimental = true
