@@ -45,17 +45,23 @@ The Implementation Guide defines the following main profiles:
 
 | Profil | Beschreibung | Parent |
 |--------|--------------|---------|
+| Profil | Beschreibung | Parent |
+|--------|--------------|---------|
 | [ChEmrComposition](StructureDefinition-ch-emr-composition.html) | Document composition | CH IPS Composition |
 | [ChEmrBundle](StructureDefinition-ch-emr-bundle.html) | Document bundle| CH Core Document |
 | [ChEmrPatient](StructureDefinition-ch-emr-patient.html) | Demographic data and contact information | CH IPS Patient |
 | [ChEmrRelatedPerson](StructureDefinition-ch-emr-relatedperson.html) | Family and trusted persons | CH Core RelatedPerson |
 | [ChEmrPractitioner](StructureDefinition-ch-emr-practitioner.html) | Healthcare practitioner information | CH IPS Practitioner |
-| [ChEmrObservation](StructureDefinition-ch-emr-observation.html) | Various observations | Observation |
+| [ChEmrObservationResuscitationStatus](StructureDefinition-ch-emr-observation-resuscitation-status.html) | Observation profile for documenting the patient's resuscitation status | Observation |
+| [ChEmrObservationCognitiveDisability](StructureDefinition-ch-emr-observation-cognitive-disability.html) | Observation profile for cognitive disability | Observation |
+| [ChEmrObservationPhysicalDisability](StructureDefinition-ch-emr-observation-physical-disability.html) | Observation profile for physical disability in the Emergency Record| Observation |
+| [ChEmrConditionHealthcareProfessionalsRiskFactors](StructureDefinition-ch-emr-condition-riskFactors.html) | Riskfactors for healthcare professionals| CH IPS Condition |
 | [ChEmrMedication](StructureDefinition-ch-emr-medication.html) | Medication details | CH IPS Medication |
 | [ChEmrMedicationStatement](StructureDefinition-ch-emr-medicationstatement.html) | Current medication | CH IPS MedicationStatement |
 | [ChEmrImmunization](StructureDefinition-ch-emr-immunization.html) | Immunization records | CH IPS Immunization |
 | [ChEmrAllergyIntolerance](StructureDefinition-ch-emr-allergyintolerance.html) | Allergies and intolerances | CH IPS AllergyIntolerance |
 | [ChEmrCondition](StructureDefinition-ch-emr-condition.html) | Problems and diagnoses | CH IPS Condition |
+| [ChEmrDocumentReferenceAdvanceDirective](StructureDefinition-ch-emr-documentreference-advance-directive.html) | Reference to advance directives and emergency medical | CH Core DocumentReference |
 | [ChEmrDocumentReference](StructureDefinition-ch-emr-documentreference.html) | Reference to documents | CH Core DocumentReference |
 | [ChEmrDevice](StructureDefinition-ch-emr-device.html) | Implants | Device |
 
