@@ -113,5 +113,5 @@ Description: "Composition for the emergency record for Laura Weber"
 * section[sectionPhysicalDisability].code = $loinc#101720-1 "Disability status"
 * section[sectionPhysicalDisability].text.status = #generated
 * section[sectionPhysicalDisability].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Keine Beeinträchtigung bekannt.</p></div>"
-* section[sectionDisectionPhysicalDisabilitysability].emptyReason = $list-empty-reason#nilknown "None Known"
+* section[sectionPhysicalDisability].emptyReason = $list-empty-reason#nilknown "None Known"
 
