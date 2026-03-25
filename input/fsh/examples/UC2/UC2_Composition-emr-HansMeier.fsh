@@ -108,10 +108,17 @@ Description: "Composition für den eNotfallpass von Hans Meier"
 * section[sectionPregnancyHx].emptyReason = $list-empty-reason#unavailable "Information not available"
 
 // Disability section
-* section[sectionDisability].title = "Beeinträchtigungen"
-* section[sectionDisability].code = $loinc#101720-1 "Disability status"
-* section[sectionDisability].text.status = #generated
-* section[sectionDisability].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Keine Beeinträchtigung bekannt.</p></div>"
-* section[sectionDisability].emptyReason = $list-empty-reason#nilknown "None Known"
+* section[sectionCognitiveDisability].title = "Beeinträchtigungen"
+* section[sectionCognitiveDisability].code = $loinc#101720-1 "Disability status"
+* section[sectionCognitiveDisability].text.status = #generated
+* section[sectionCognitiveDisability].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Keine Beeinträchtigung bekannt.</p></div>"
+* section[sectionCognitiveDisability].emptyReason = $list-empty-reason#nilknown "None Known"
+
+* section[sectionPhysicalDisability].title = "Beeinträchtigungen"
+* section[sectionPhysicalDisability].code = $loinc#101720-1 "Disability status"
+* section[sectionPhysicalDisability].text.status = #generated
+* section[sectionPhysicalDisability].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Keine Beeinträchtigung bekannt.</p></div>"
+* section[sectionDisectionPhysicalDisabilitysability].emptyReason = $list-empty-reason#nilknown "None Known"
+
 
 

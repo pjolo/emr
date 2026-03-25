@@ -1,0 +1,11 @@
+Instance: EX-CognitiveDisability
+InstanceOf: ChEmrObservationCognitiveDisability
+Usage: #example
+Title: "EX-CognitiveDisability"
+Description: "Beispiel: Demenz"
+
+* status = #final
+* code = $sct#52448006 "Dementia (disorder)"
+* subject = Reference(EX-Patient)
+* effectiveDateTime = "2025-10-08"
+* performer = Reference(EX-Practitioner)

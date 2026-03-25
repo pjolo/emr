@@ -1,8 +1,8 @@
-Instance: EX-Disability
-InstanceOf: ChEmrObservationDisability
+Instance: EX-PhysicalDisability
+InstanceOf: ChEmrObservationPhysicalDisability
 Usage: #example
-Title: "EX-Disability"
-Description: "General example of a disability"
+Title: "EX-PhysicalDisability"
+Description: "General example of a physical disability"
 
 * status = #final
 * code = $sct#228158008 "Walking disability (finding)"

@@ -67,11 +67,17 @@ Description: "Swiss Emergency Record based on International Patient Summary"
 * section[sectionOtherDocuments].entry[document] only Reference(ChEmrDocumentReference)
 
 //Disability
-* section[sectionDisability].code = $loinc#101720-1 "Disability status"
-* section[sectionDisability].entry ^slicing.discriminator.type = #profile
-* section[sectionDisability].entry ^slicing.discriminator.path = "resolve()"
-* section[sectionDisability].entry ^slicing.rules = #open
-* section[sectionDisability].entry contains observation 0..*
-* section[sectionDisability].entry[observation] only Reference(ChEmrObservationDisability)
+* section[sectionCognitiveDisability].code = $loinc#101720-1 "Disability status"
+* section[sectionCognitiveDisability].entry ^slicing.discriminator.type = #profile
+* section[sectionCognitiveDisability].entry ^slicing.discriminator.path = "resolve()"
+* section[sectionCognitiveDisability].entry ^slicing.rules = #open
+* section[sectionCognitiveDisability].entry contains observation 0..*
+* section[sectionCognitiveDisability].entry[observation] only Reference(Profile: ChEmrObservationCognitiveDisability)
 
+* section[sectionPhysicalDisability].code = $loinc#101720-1 "Disability status"
+* section[sectionPhysicalDisability].entry ^slicing.discriminator.type = #profile
+* section[sectionPhysicalDisability].entry ^slicing.discriminator.path = "resolve()"
+* section[sectionPhysicalDisability].entry ^slicing.rules = #open
+* section[sectionPhysicalDisability].entry contains observation 0..*
+* section[sectionPhysicalDisability].entry[observation] only Reference(ChEmrObservationPhysicalDisability)
 

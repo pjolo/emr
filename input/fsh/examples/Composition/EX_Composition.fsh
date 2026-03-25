@@ -106,8 +106,14 @@ Description: "General composition for the Emergency Record"
 * section[sectionPregnancyHx].entry[pregnancyStatus][0] = Reference(EX-Pregnancy)
 
 // Disability section
-* section[sectionDisability].title = "Beeinträchtigungen"
-* section[sectionDisability].code = $loinc#101720-1 "Disability status"
-* section[sectionDisability].text.status = #generated
-* section[sectionDisability].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><ul><li>Gehbehinderung</li></ul></div>"
-* section[sectionDisability].entry[observation][0] = Reference(EX-Disability)
+* section[sectionCognitiveDisability].title = "Beeinträchtigungen"
+* section[sectionCognitiveDisability].code = $loinc#101720-1 "Disability status"
+* section[sectionCognitiveDisability].text.status = #generated
+* section[sectionCognitiveDisability].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><ul><li>Gehbehinderung</li></ul></div>"
+* section[sectionCognitiveDisability].entry[observation][0] = Reference(EX-CognitiveDisability)
+
+* section[sectionPhysicalDisability].title = "Beeinträchtigungen"
+* section[sectionPhysicalDisability].code = $loinc#101720-1 "Disability status"
+* section[sectionPhysicalDisability].text.status = #generated
+* section[sectionPhysicalDisability].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><ul><li>Gehbehinderung</li></ul></div>"
+* section[sectionPhysicalDisability].entry[observation][0] = Reference(EX-PhysicalDisability)

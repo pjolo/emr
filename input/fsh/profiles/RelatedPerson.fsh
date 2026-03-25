@@ -9,3 +9,5 @@ Description: "RelatedPerson profile for emergency contacts and family members in
 * telecom MS 
 * address MS 
 * communication.language MS 
+
+* relationship from http://terminology.hl7.org/ValueSet/v3-PersonalRelationshipRoleType (extensible)
