@@ -1,5 +1,5 @@
 Instance: EX-RiskFactor
-InstanceOf: ChEmrObservationRiskFactors
+InstanceOf: ChEmrConditionHealthcareProfessionalsRiskFactors
 Usage: #example
 Title: "EX-RiskFactor"
 Description: "General example of a reik factors"
