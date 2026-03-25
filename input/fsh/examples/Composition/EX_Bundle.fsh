@@ -81,6 +81,9 @@ Description: "Complete Emergency Record Bundle"
 * entry[=].resource = EX-Pregnancy
 
 // Disability
-* entry[+].fullUrl = "http://fhir.ch/ig/emr/Observation/EX-Disability"
-* entry[=].resource = EX-Disability
+* entry[+].fullUrl = "http://fhir.ch/ig/emr/Observation/EX-CognitiveDisability"
+* entry[=].resource = EX-CognitiveDisability
+
+* entry[+].fullUrl = "http://fhir.ch/ig/emr/Observation/EX-PhysicalDisability"
+* entry[=].resource = EX-PhysicalDisability
 
