@@ -1,12 +1,10 @@
 Profile: ChEmrObservationPregnancyStatus
-Parent: Observation
-Id: ch-emr-observation
-Title: "CH Emergency Record Observation"
-Description: "Observation profile for various observations in the Emergency Record."
+Parent: $ObservationPregnancyStatusUvIps
+Id: ch-emr-observation-pregnancy-status
+Title: "CH EMR Observation Pregnancy Status"
+Description: "Profile for documenting pregnancy status in the emergency record"
 
-* status MS
-* subject MS
+* ^status = #active
 * subject only Reference(ChEmrPatient)
-
-* value[x] only boolean
-* value[x] 1..1 MS
+* subject MS
+* valueCodeableConcept MS
