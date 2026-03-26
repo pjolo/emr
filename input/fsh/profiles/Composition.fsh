@@ -68,14 +68,14 @@ Description: "Swiss Emergency Record based on International Patient Summary"
 * section[sectionOtherDocuments].entry[document] only Reference(ChEmrDocumentReference)
 
 //Disability
-* section[sectionCognitiveDisability].code = $loinc#101720-1 "Disability status"
+* section[sectionCognitiveDisability].code = $loinc#66610-7 "Cognitive impairment"
 * section[sectionCognitiveDisability].entry ^slicing.discriminator.type = #profile
 * section[sectionCognitiveDisability].entry ^slicing.discriminator.path = "resolve()"
 * section[sectionCognitiveDisability].entry ^slicing.rules = #open
 * section[sectionCognitiveDisability].entry contains observation 0..*
 * section[sectionCognitiveDisability].entry[observation] only Reference(ChEmrObservationCognitiveDisability)
 
-* section[sectionPhysicalDisability].code = $loinc#101720-1 "Disability status"
+* section[sectionPhysicalDisability].code = $loinc#96386-8 "Physical impairment information"
 * section[sectionPhysicalDisability].entry ^slicing.discriminator.type = #profile
 * section[sectionPhysicalDisability].entry ^slicing.discriminator.path = "resolve()"
 * section[sectionPhysicalDisability].entry ^slicing.rules = #open
