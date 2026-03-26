@@ -1,5 +1,5 @@
 Instance: UC3-Observation-Pregnancy
-InstanceOf: ChEmrObservation
+InstanceOf: Profile: ChEmrObservationPregnancyStatus
 Usage: #example
 Title: "UC3-Observation-Pregnancy"
 Description: "Laura Weber's current pregnancy"
