@@ -3,7 +3,7 @@ Id: ch-emr-risk-factor-healthcare-professionals-vs
 Title: "Infectious Disease Risk Factors"
 Description: "ValueSet containing codes for infectious disease risk factors"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^version = "1.0.0"
 * ^date = "2025-01-15"
 

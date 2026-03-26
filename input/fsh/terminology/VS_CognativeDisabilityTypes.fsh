@@ -3,7 +3,7 @@ Id: ch-emr-cognative-disability-types-vs
 Title: "Cognative disability types"
 Description: "Value sets for the types of disabilities"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^version = "1.0.0"
 * ^date = "2025-01-15"
 

@@ -3,7 +3,7 @@ Id: ch-emr-implant-type-vs
 Title: "Implant Type"
 Description: "Codes for implant types"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^version = "1.0.0"
 * ^date = "2025-01-15"
 

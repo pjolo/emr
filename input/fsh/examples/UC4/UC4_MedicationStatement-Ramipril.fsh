@@ -21,6 +21,7 @@ Description: "ACE inhibitor therapy"
 
 Instance: EX-Ramipril
 InstanceOf: ChEmrMedication
+Description: "Example of Ramipril 5 mg tablet medication"
 Usage: #example
 * code = urn:oid:2.51.1.1#7680658950051 "RAMIPRIL Mepha Tabl 5 mg"
 * form = urn:oid:0.4.0.127.0.16.1.1.2.1#10219000 "Tablet"

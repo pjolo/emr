@@ -21,6 +21,7 @@ Description: "Diuretikum Therapie"
 
 Instance: EX-Furosemid
 InstanceOf: ChEmrMedication
+Description: "Example of Furosemid 40 mg tablet medication"
 Usage: #example
 * code = urn:oid:2.51.1.1#7680306290195 "LASIX Tabl 40 mg"
 * form = urn:oid:0.4.0.127.0.16.1.1.2.1#10219000 "Tablet"

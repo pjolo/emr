@@ -19,6 +19,7 @@ Description: "General example of a medication statement"
 
 Instance: EX-Metformin
 InstanceOf: ChEmrMedication
+Description: "Example of Metformin 500 mg tablet medication"
 Usage: #example
 * code = urn:oid:2.51.1.1#7680590990115 "METFORMIN Axapharm Filmtabl 500 mg (Blister 50 Stk)"
 * code.text = "METFORMIN Axapharm Filmtabl 500 mg"

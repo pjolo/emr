@@ -3,7 +3,7 @@ Id: ch-emr-clinical-document-types-vs
 Title: "Clinical Document Types"
 Description: "Value Set for clinical document types"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^version = "1.0.0"
 * ^date = "2025-01-15"
 
