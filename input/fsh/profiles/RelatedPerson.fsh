@@ -6,7 +6,9 @@ Description: "RelatedPerson profile for emergency contacts and family members in
 
 * name 1..* MS 
 * relationship MS 
-* telecom MS 
+* telecom[phone] MS
+* telecom[email] MS
+* telecom[internet] MS
 * address MS 
 * communication.language MS 
 
