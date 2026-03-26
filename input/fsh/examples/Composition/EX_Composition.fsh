@@ -99,21 +99,21 @@ Description: "General composition for the Emergency Record"
 * section[sectionMedicalDevices].entry[deviceStatement][0] = Reference(EX-DeviceUseStatement)
 
 // Pregnancy section
-* section[sectionPregnancyHx].title = "SChwangerschaft"
+* section[sectionPregnancyHx].title = "Schwangerschaft"
 * section[sectionPregnancyHx].code = $loinc#10162-6 "Pregnancies Hx"
 * section[sectionPregnancyHx].text.status = #generated
 * section[sectionPregnancyHx].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Schwangerschaft:</p><ul><li>Ja</li></ul></div>"
 * section[sectionPregnancyHx].entry[pregnancyStatus][0] = Reference(EX-Pregnancy)
 
 // Disability section
-* section[sectionCognitiveDisability].title = "Beeinträchtigungen"
-* section[sectionCognitiveDisability].code = $loinc#101720-1 "Disability status"
+* section[sectionCognitiveDisability].title = "Kognitive Beeinträchtigungen"
+* section[sectionCognitiveDisability].code = $loinc#66610-7 "Cognitive impairment"
 * section[sectionCognitiveDisability].text.status = #generated
 * section[sectionCognitiveDisability].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><ul><li>Gehbehinderung</li></ul></div>"
 * section[sectionCognitiveDisability].entry[observation][0] = Reference(EX-CognitiveDisability)
 
-* section[sectionPhysicalDisability].title = "Beeinträchtigungen"
-* section[sectionPhysicalDisability].code = $loinc#101720-1 "Disability status"
+* section[sectionPhysicalDisability].title = "Physische Beeinträchtigungen"
+* section[sectionPhysicalDisability].code = $loinc#96386-8 "Physical impairment information"
 * section[sectionPhysicalDisability].text.status = #generated
 * section[sectionPhysicalDisability].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><ul><li>Gehbehinderung</li></ul></div>"
 * section[sectionPhysicalDisability].entry[observation][0] = Reference(EX-PhysicalDisability)

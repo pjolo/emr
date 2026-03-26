@@ -105,14 +105,14 @@ Description: "Composition for the Emergency Record by Maria Schmidt"
 * section[sectionPregnancyHx].emptyReason = $list-empty-reason#unavailable "Information not available"
 
 // Disability section
-* section[sectionCognitiveDisability].title = "Beeinträchtigungen"
-* section[sectionCognitiveDisability].code = $loinc#101720-1 "Disability status"
+* section[sectionCognitiveDisability].title = "Kognitive Beeinträchtigungen"
+* section[sectionCognitiveDisability].code = $loinc#66610-7 "Cognitive impairment"
 * section[sectionCognitiveDisability].text.status = #generated
 * section[sectionCognitiveDisability].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Keine Beeinträchtigung bekannt.</p></div>"
 * section[sectionCognitiveDisability].emptyReason = $list-empty-reason#nilknown "None Known"
 
-* section[sectionPhysicalDisability].title = "Beeinträchtigungen"
-* section[sectionPhysicalDisability].code = $loinc#101720-1 "Disability status"
+* section[sectionPhysicalDisability].title = "Physische Beeinträchtigungen"
+* section[sectionPhysicalDisability].code = $loinc#96386-8 "Physical impairment information"
 * section[sectionPhysicalDisability].text.status = #generated
 * section[sectionPhysicalDisability].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><p>Keine Beeinträchtigung bekannt.</p></div>"
 * section[sectionPhysicalDisability].emptyReason = $list-empty-reason#nilknown "None Known"
