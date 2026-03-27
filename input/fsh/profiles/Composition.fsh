@@ -28,6 +28,10 @@ Description: "Swiss Emergency Record based on International Patient Summary"
 * section[sectionEmergencyContacts].entry[relatedPerson] only Reference(ChEmrRelatedPerson)
 
 // Care Team
+* section[sectionCareTeam].code = $loinc#85847-2 "Patient Care team information"
+* section[sectionCareTeam].entry ^slicing.discriminator.type = #profile
+* section[sectionCareTeam].entry ^slicing.discriminator.path = "resolve()"
+* section[sectionCareTeam].entry ^slicing.rules = #open
 * section[sectionCareTeam].entry contains
     practitioner 0..* and
     practitionerRole 0..*
