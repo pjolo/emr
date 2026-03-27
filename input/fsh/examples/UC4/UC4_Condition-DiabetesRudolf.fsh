@@ -14,4 +14,4 @@ Description: "Type 2 diabetes mellitus"
 * recordedDate = "2010-04-15"
 * recorder = Reference(UC4-Practitioner-DrWeber)
 * asserter = Reference(UC4-Practitioner-DrWeber)
-* note.text = "Diabetes mellitus Typ 2 seit 2010. Komplikationen: diabetische Nephropathie. HbA1c zuletzt 7.8%. Bei Niereninsuffizienz Metformin kontraindiziert."
+

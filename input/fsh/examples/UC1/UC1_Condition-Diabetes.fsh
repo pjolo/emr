@@ -14,4 +14,4 @@ Description: "Example of a diabetes diagnosis for Maria Schmidt"
 * recordedDate = "2015-06-15"
 * recorder = Reference(UC1-Practitioner-DrMueller)
 * asserter = Reference(UC1-Practitioner-DrMueller)
-* note.text = "Gut kontrolliert mit Metformin, HbA1c zuletzt 6.8% (September 2025)"
+

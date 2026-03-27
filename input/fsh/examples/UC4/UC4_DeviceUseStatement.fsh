@@ -11,5 +11,3 @@ Description: "Rudolf Zimmermann trägt eine Hüftgelenk-Prothese links"
 * timingDateTime = "2018-04-15"
 
 * bodySite = $sct#287579007 "Left hip region structure (body structure)"
-
-* note.text = "Totalendoprothese Hüfte links, implantiert am 15.04.2018 im Kantonsspital Basel. Komplikationsloser Verlauf. Bei Bildgebung zu beachten: Metallartefakte möglich."

@@ -2,7 +2,7 @@ Instance: EX-CognitiveDisability
 InstanceOf: ChEmrObservationCognitiveDisability
 Usage: #example
 Title: "EX-CognitiveDisability"
-Description: "Beispiel: Demenz"
+Description: "Example: Dementia"
 
 * status = #final
 * code = $sct#52448006 "Dementia (disorder)"

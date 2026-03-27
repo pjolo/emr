@@ -26,6 +26,4 @@ Description: "Hausarzt von Rudolf Zimmermann"
 * address.postalCode = "4051"
 * address.country = "CH"
 
-* qualification[0].code = $sct#408443003 "General medical practice"
-* qualification[0].period.start = "1998-01-01"
-* qualification[0].issuer.display = "Medizinische Fakultät Universität Basel"
+

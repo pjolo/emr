@@ -30,7 +30,3 @@ Description: "Laura Weber's family doctor"
 * address.postalCode = "8001"
 * address.country = "CH"
 
-// Qualification
-* qualification.code = $sct#408443003 "General medical practice"
-* qualification.period.start = "1995-06-01"
-* qualification.issuer.display = "Medizinische Fakultät Universität Zürich"

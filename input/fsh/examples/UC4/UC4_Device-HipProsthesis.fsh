@@ -12,17 +12,7 @@ Description: "Künstliches Hüftgelenk links"
 
 * status = #active
 * type = $sct#304120007 "Total hip replacement prosthesis"
-* manufacturer = "Zimmer Biomet"
-
-* deviceName.name = "Taperloc Complete Hip System"
-* deviceName.type = #manufacturer-name
-
-* modelNumber = "Taperloc Complete"
-* serialNumber = "HP20180415001"
 * patient = Reference(UC4-Patient-RudolfZimmermann)
 
-* note.text = "Totalendoprothese Hüfte links, implantiert am 15.04.2018 im Kantonsspital Basel. Grund: Coxarthrose. Komplikationsloser Verlauf. Bei Bildgebung zu beachten: Metallartefakte möglich."
-
-* expirationDate = "2038-04-15"
 
 

@@ -30,7 +30,3 @@ Description: "Gynecologist and obstetrician of Laura Weber"
 * address.postalCode = "4031"
 * address.country = "CH"
 
-// Qualification
-* qualification.code = $sct#36682004 "Obstetrician"
-* qualification.period.start = "2012-06-01"
-* qualification.issuer.display = "Medizinische Fakultät Universität Basel"
