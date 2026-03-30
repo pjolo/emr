@@ -5,12 +5,14 @@ This exchange format is defined as a document type that corresponds to a Bundle 
 ### Bundle structure
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. A Bundle has a list of entries. The first entry is the Composition, in which all contained entries are then referenced.
 
-{% include document.svg %}
+{% include document.svg caption="Fig. 2: Schematic document structure of CH EMR" %}
 
 [Emergency Record Bundle](StructureDefinition-ch-emr-bundle.html) definition for the FHIR representation of the emergency record in Switzerland.
 
-### Composition 
-[Composition](StructureDefinition-ch-emr-composition.html) 
+### Profile 
+[CH Emergency Record Bundle](StructureDefinition-ch-emr-bundle.html) definition for the FHIR representation of the emergency record in Switzerland.
+[CH Emergency Record Composition](StructureDefinition-ch-emr-composition.html) definition for the FHIR representation of the clinical content of the emergency record in Switzerland.
+ 
 
 ### Example bundle
 

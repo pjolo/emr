@@ -1,7 +1,7 @@
 Profile: ChEmrObservationPhysicalDisability
 Parent: Observation
 Id: ch-emr-observation-physical-disability
-Title: "CH EMR Physical Disability Observation"
+Title: "CH Emergency Record Physical Disability Observation"
 Description: "Observation profile for physical disability in the Emergency Record."
 * status MS
 * subject 1..1 MS
