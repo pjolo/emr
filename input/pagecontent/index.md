@@ -74,8 +74,7 @@ The Implementation Guide defines the following main profiles:
 | [ChEmrDocumentReference](StructureDefinition-ch-emr-documentreference.html) | Reference to documents | CH Core DocumentReference |
 | [ChEmrDevice](StructureDefinition-ch-emr-device.html) | Implants | Device |
 | [ChEmrObservationPregnancyStatus](StructureDefinition-ch-emr-observation-pregnancy-status.html) | Profile for documenting pregnancy status in the emergency record | IPS Observation Pregnancy - Status |
-
-### 
+ 
 ### IP Statements
 This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
 
