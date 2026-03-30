@@ -1,0 +1,31 @@
+@startuml
+skinparam defaultTextAlignment center
+skinparam shadowing false
+skinparam rectangle {
+  roundCorner 0
+}
+skinparam nodesep 100
+skinparam ranksep 80
+
+skinparam minClassWidth 200
+
+rectangle "<color:Gray><size:16>Core IGs" as L1 #White;line:White
+rectangle "<color:Gray><size:16>IPS IGs " as L2 #White;line:White
+rectangle "<color:Gray><size:16>EMR IG  " as L3 #White;line:White
+
+rectangle "**CH Core**\nSwiss core profiles,\nEPR concepts" as chcore #White;line:Red;line.bold;text:Black
+rectangle "**CH Term**\nterminology\n " as chterm #White;line:Red;line.bold;text:Black
+rectangle "\n**CH IPS**\n \n " as chips #White;line:Orange;line.bold;text:Black
+rectangle "\n**IPS**\n \n " as ips #White;line:DodgerBlue;line.bold;text:Black
+rectangle "**CH EMR**\nEmergency Record\n " as chemr #White;line:Green;line.bold;text:Black
+
+L1 -[hidden]right- chcore
+L2 -[hidden]right- chips
+L3 -[hidden]right- chemr
+
+chcore -right-> chterm #Silver : <color:Gray>derived
+chips -up-> chcore #Silver : <color:Gray>derived
+chips -right-> ips #Silver : <color:Gray>imposeProfile\n<color:Gray>Extension
+chemr -up-> chips #Silver : <color:Gray>derived
+
+@enduml
