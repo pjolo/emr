@@ -1,6 +1,6 @@
-ValueSet: ChEmrCognativeDisabilityTypesVS
-Id: ch-emr-cognative-disability-types-vs
-Title: "Cognative disability types"
+ValueSet: ChEmrCognitiveDisabilityTypesVS
+Id: ch-emr-cognitive-disability-types-vs
+Title: "Cognitive disability types"
 Description: "Value sets for the types of disabilities"
 * ^status = #active
 * ^experimental = false

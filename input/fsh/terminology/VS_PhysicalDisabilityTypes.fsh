@@ -12,3 +12,4 @@ Description: "Value sets for the types of disabilities"
 * $sct#128188000 "Cerebral palsy"
 * $sct#257277002 "Neuromuscular disorder"
 * $sct#228158008 "Walking disability (finding)"
+

@@ -1,5 +1,5 @@
 Instance: UC4-AdvanceDirective
-InstanceOf: ChEmrDocumentReference
+InstanceOf: ChEmrDocumentReferenceAdvanceDirective
 Usage: #example
 Title: "UC4-AdvanceDirective"
 Description: "Patientenverfügung von Rudolf Zimmermann"

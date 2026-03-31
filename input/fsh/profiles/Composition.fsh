@@ -60,7 +60,7 @@ Description: "Swiss Emergency Record based on International Patient Summary"
 * section[sectionAdvanceDirectives].entry ^slicing.discriminator.path = "resolve()"
 * section[sectionAdvanceDirectives].entry ^slicing.rules = #open
 * section[sectionAdvanceDirectives].entry contains advanceDirective 0..*
-* section[sectionAdvanceDirectives].entry[advanceDirective] only Reference(ChEmrDocumentReference)
+* section[sectionAdvanceDirectives].entry[advanceDirective] only Reference(ChEmrDocumentReferenceAdvanceDirective)
 
 //OtherDocuments
 * section[sectionOtherDocuments].code = $loinc#55108-5 "Clinical presentation Document"

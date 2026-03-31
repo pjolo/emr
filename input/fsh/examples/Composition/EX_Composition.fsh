@@ -88,7 +88,7 @@ Description: "General composition for the Emergency Record"
 * section[sectionOtherDocuments].title = "Andere Dokumente"
 * section[sectionOtherDocuments].code = $loinc#55108-5 "Clinical presentation Document"
 * section[sectionOtherDocuments].text.status = #generated
-* section[sectionOtherDocuments].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><ul><li>Organspendeausweis: Organspendeausweis ist im Protmonnaie</li></ul></div>"
+* section[sectionOtherDocuments].text.div = "<div xmlns='http://www.w3.org/1999/xhtml'><ul><li>Organspendeausweis: Organspendeausweis ist im Portemonnaie</li></ul></div>"
 * section[sectionOtherDocuments].entry[document][0] = Reference(EX-DocumentReferences)
 
 // Medical devices section

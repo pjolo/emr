@@ -55,7 +55,7 @@ The emergency report is designed to give medical professionals quick and structu
 
 The Implementation Guide defines the following main profiles:
 
-| Profil | Beschreibung | Parent |
+| Profile | Description | Parent |
 |--------|--------------|---------|
 | [ChEmrComposition](StructureDefinition-ch-emr-composition.html) | Document composition | CH IPS Composition |
 | [ChEmrBundle](StructureDefinition-ch-emr-bundle.html) | Document bundle| CH Core Document |
