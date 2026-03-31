@@ -8,4 +8,4 @@ Description: "Observation profile for cognitive disability in the Emergency Reco
 * subject 1..1 MS
 * subject only Reference(ChEmrPatient)
 * code 1..1 MS
-* code from ChEmrCognativeDisabilityTypesVS (extensible)
+* code from ChEmrCognitiveDisabilityTypesVS (extensible)
